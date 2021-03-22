@@ -7,7 +7,7 @@
         "author":"John Lewis",
         "button":"Why Vote"
     },
-    "countdown":{
+    "countdown_component":{
        "title": "Georgia senate runoff."
     },
     "landing_page":{
@@ -51,5 +51,29 @@
         "link4": "Voting for felons",
         "link5": "Voter tips for the disabled",
         "last_paragraph":"Each voter’s journey is different. Five Fifths Voter can put you on the right path to reclaiming voter confidence. Please visit our support channels to help guide you."
+    },
+    "vote_now_component":{
+        "header":"Candidates, deadlines and resources",
+        "acceptable_id":"Acceptable IDs",
+        "state_voter_id_info":"State voter ID information",
+        "more_state_info": "More Information from your State",
+        "state_gov_id": "Any valid state or federal government issued photo ID, including a free ID Card issued by your county registrar's office or the Department of Driver Services (DDS)",
+        "state_drivers_license":"A state issued driver's license, even if expired",
+        "gov_employee_id":"Valid employee photo ID from any branch, department, agency, or entity of the U.S. Government, state, or any county, municipality, board, authority or other entity of this state",
+        "us_passport":"Valid U.S. passport ID",
+        "us_military_id":"Valid U.S. military photo ID",
+        "tribal_id":"Valid tribal photo ID",
+        "student_id":"Many student IDs are also acceptable",
+        "state_voting_info_button": "State Voting Info"
+    },
+    "twitter_chatter_component":{
+        "no_tweets_available":"No tweets available",
+        "tweets_are_available":"here's what they're saying."
+    },
+    "register_component":{
+        "title":"Voting is the future",
+        "paragraph":"Voting is the perfect way for you to unite and implement change in your communities, state-wide and nationally.",
+        "check_status_link":"Check voting status",
+        "register_link":"Register to vote"
     }
 }
