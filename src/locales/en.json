@@ -75,5 +75,12 @@
         "paragraph":"Voting is the perfect way for you to unite and implement change in your communities, state-wide and nationally.",
         "check_status_link":"Check voting status",
         "register_link":"Register to vote"
+    },
+    "connect_page":{
+        "header": "Get social",
+        "title": "Get educated, get social, and get vocal",
+        "dropdown_label": "Enter candidate's Twitter",
+        "button": "Check",
+        "results": "here's what they're saying"
     }
 }
