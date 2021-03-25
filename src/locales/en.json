@@ -1,55 +1,60 @@
 {
-    "hero_header":{
-        "title":"Five Fifths Voter",
-        "description_1":"5/5 equals a whole.",
-        "description_2":"A whole person, a whole community, a whole nation.",
-        "quote":"A whole person, a whole community, a whole nation.",
-        "author":"John Lewis",
-        "button":"Why Vote"
+  "hero_header":{
+    "title":"Five Fifths Voter",
+    "description_1":"5/5 equals a whole.",
+    "description_2":"A whole person, a whole community, a whole nation.",
+    "quote":"A whole person, a whole community, a whole nation.",
+    "author":"John Lewis",
+    "button":"Why Vote"
+  },
+  "countdown":{
+    "title": "Georgia senate runoff."
+  },
+  "landing_page":{
+    "mission":{
+      "title":"Our Mission",
+      "paragrah":"With Five Fifths Voter, we help put the power back in your hands. Our platform provides a personalized experience with useful tools to help marginalized voters overcome voting process roadblocks. Five Fifths Voter takes into account various voting journeys, such as first-time voters, veterans, minorities, legally disabled, the elderly, or those with felony convictions. Together, we can change the narrative of historically disenfranchised people in our democratic process."
+      },    
+    "educate":{
+      "title":"Educate.",
+      "quote": "Knowledge is power",
+      "author": "Francis Bacon",
+      "paragraph": "Five Fifths Voter will educate disenfranchised voters with voting guidance and connection to up-to-date tools necessary to complete the voting process."
     },
-    "countdown":{
-       "title": "Georgia senate runoff."
+    "empower":{
+      "title":"Empower.",
+      "quote": "I am no bird; and no net ensnares me: I am a free human being with an independent will.",
+      "author": "Charlotte Brontë",
+      "paragraph": "Five Fifths Voter will help generate solidarity for disenfranchised voting communities and leverage social media platforms for easy access to candidate information."
     },
-    "landing_page":{
-        "mission":{
-            "title":"Our Mission",
-            "paragrah":"With Five Fifths Voter, we help put the power back in your hands. Our platform provides a personalized experience with useful tools to help marginalized voters overcome voting process roadblocks. Five Fifths Voter takes into account various voting journeys, such as first-time voters, veterans, minorities, legally disabled, the elderly, or those with felony convictions. Together, we can change the narrative of historically disenfranchised people in our democratic process."
-        },    
-        "educate":{
-            "title":"Educate.",
-            "quote": "Knowledge is power",
-            "author": "Francis Bacon",
-            "paragraph": "Five Fifths Voter will educate disenfranchised voters with voting guidance and connection to up-to-date tools necessary to complete the voting process."
-        },
-        "empower":{
-            "title":"Empower.",
-            "quote": "I am no bird; and no net ensnares me: I am a free human being with an independent will.",
-            "author": "Charlotte Brontë",
-            "paragraph": "Five Fifths Voter will help generate solidarity for disenfranchised voting communities and leverage social media platforms for easy access to candidate information."
-        },
-        "enable":{
-            "title":"Enable.",
-            "quote": "Enablement is the key to closing the gap between intention and action.",
-            "author": "Paul Repetto",
-            "paragraph": "Five Fifths Voter enables users with information to get to polling stations in safe and efficient ways and will strive to help remove roadblocks disenfranchised voters encounter when voting."
-        }
-    },
-    "why_vote_page": {
-        "header": "Why vote?",
-        "title": "So what's the deal?",
-        "paragraph1": "In 1868, the 14th Amendment gave Black people citizenship in America, but it would be over 97 years before they could successfully vote. During this time span poll taxes, literacy tests, and other tactics were used to undermine Black people's right to vote.",
-        "paragraph2": "In 1965, the Voting Rights Act provided a successful pathway for Black and many disenfranchised people to vote. Many Black people protested, marched, were arrested and even died as they fought the battle for voting equality.",
-        "paragraph3": "Voting is the perfect way to implement change. As American citizens, regardless of race, sex, background or nationality, we can stand in solidarity as a whole and exercise the right to be heard. Five Fifths Voter is tailored to help Black and other disenfranchised voters to seize the opportunity to be heard in America.",
-        "final_sentence": "Join us to get registered, get educated, get social, and get vocal."
-    },
-    "support_page": {
-        "header": "Support when you need it",
-        "title": "Resources are available to help you",
-        "link1": "Seniors, find a ride to the polls",
-        "link2": "Free election day childcare",
-        "link3": "Mail-in voting instructions",
-        "link4": "Voting for felons",
-        "link5": "Voter tips for the disabled",
-        "last_paragraph":"Each voter’s journey is different. Five Fifths Voter can put you on the right path to reclaiming voter confidence. Please visit our support channels to help guide you."
-    }
+    "enable":{
+      "title":"Enable.",
+      "quote": "Enablement is the key to closing the gap between intention and action.",
+      "author": "Paul Repetto",
+      "paragraph": "Five Fifths Voter enables users with information to get to polling stations in safe and efficient ways and will strive to help remove roadblocks disenfranchised voters encounter when voting."
+      }
+  },
+  "why_vote_page": {
+    "header": "Why vote?",
+    "title": "So what's the deal?",
+    "paragraph1": "In 1868, the 14th Amendment gave Black people citizenship in America, but it would be over 97 years before they could successfully vote. During this time span poll taxes, literacy tests, and other tactics were used to undermine Black people's right to vote.",
+    "paragraph2": "In 1965, the Voting Rights Act provided a successful pathway for Black and many disenfranchised people to vote. Many Black people protested, marched, were arrested and even died as they fought the battle for voting equality.",
+    "paragraph3": "Voting is the perfect way to implement change. As American citizens, regardless of race, sex, background or nationality, we can stand in solidarity as a whole and exercise the right to be heard. Five Fifths Voter is tailored to help Black and other disenfranchised voters to seize the opportunity to be heard in America.",
+    "final_sentence_part1": "Join us to", 
+    "final_sentence_part2": "get registered",
+    "final_sentence_part3": "get educated",
+    "final_sentence_part4": "get social",
+    "final_sentence_part5": "and", 
+    "final_sentence_part6": "get vocal."
+  },
+  "support_page": {
+    "header": "Support when you need it",
+    "title": "Resources are available to help you",
+    "senior_ride_link": "Seniors, find a ride to the polls",
+    "childcare_link": "Free election day childcare",
+    "mail_in_intsructions_link": "Mail-in voting instructions",
+    "felon_link": "Voting for felons",
+    "diabled_link": "Voter tips for the disabled",
+    "last_paragraph":"Each voter’s journey is different. Five Fifths Voter can put you on the right path to reclaiming voter confidence. Please visit our support channels to help guide you."
+  }
 }

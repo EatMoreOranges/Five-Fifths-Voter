@@ -5,11 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve --port 3000",
     "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
     "ci-check": "yarn format:diff",
     "ci-format": "prettier --write \"src/**/*.{js,vue,scss}\"",
     "format:diff": "prettier --list-different \"src/**/*.{js,vue,scss}\"",
-    "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
     "@babel/core": "^7.0.0-0",
@@ -34,11 +35,6 @@
     "vuejs-countdown": "^0.2.1",
     "webpack": "^4"
   },
-  "resolutions": {
-    "serialize-javascript": "^3",
-    "node-forge": "^0.10",
-    "yargs-parser": "^18"
-  },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-plugin-eslint": "^4.5.11",
@@ -53,11 +49,8 @@
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^9.0.3",
+    "vue-cli-plugin-i18n": "~2.0.2",
     "vue-template-compiler": "^2.6.12"
-  },
-  "prettier": {
-    "singleQuote": true,
-    "printWidth": 100
   },
   "eslintConfig": {
     "root": true,
@@ -72,6 +65,10 @@
     "parserOptions": {
       "parser": "babel-eslint"
     }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 100
   },
   "postcss": {
     "plugins": {
@@ -111,5 +108,10 @@
       "jest-watch-typeahead/filename",
       "jest-watch-typeahead/testname"
     ]
+  },
+  "resolutions": {
+    "serialize-javascript": "^3",
+    "node-forge": "^0.10",
+    "yargs-parser": "^18"
   }
 }

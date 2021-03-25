@@ -11,16 +11,15 @@
         </div>
       </div>
       <div class="hero__content">
-        <h1 class="hero__heading">Five Fifths Voter</h1>
+        <h1 class="hero__heading">{{ $t('hero_header.title') }}</h1>
         <p class="hero__description">
           5/5 equals a whole.<br />A whole person, a whole community, a whole nation.
           <br />
         </p>
         <h2 class="hero__quote">
-          "My dear friends: Your vote is precious, almost sacred. It is the most powerful nonviolent
-          tool we have to create a more perfect union."
+          {{ $t('hero_header.quote') }}
           <br />
-          <span class="hero__author"> - John Lewis</span>
+          <span class="hero__author"> - {{ $t('hero_header.author') }}</span>
           <br />
           <br />
         </h2>
@@ -34,7 +33,7 @@
               <div class="bx--aspect-ratio--object">
                 <router-link class="bx--feature-card__link" to="/whyvote">
                   <div class="bx--tile">
-                    <h4 class="bx--resource-card__title">Why Vote</h4>
+                    <h4 class="bx--resource-card__title">{{ $t('hero_header.button') }}</h4>
                     <div class="bx--resource-card__icon--img"></div>
                     <div class="bx--resource-card__icon--action">
                       <svg
