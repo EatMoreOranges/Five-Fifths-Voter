@@ -5,15 +5,10 @@
       <template v-slot:content>
         <article class="article">
           <div class="article__content">
-            <h2 class="article__heading">Our Mission</h2>
+            <h2 class="article__heading">{{ $t('landing_page.mission.title') }}</h2>
             <div class="bx--offset-lg-1">
               <p class="article__paragraph">
-                With Five Fifths Voter, we help put the power back in your hands. Our platform
-                provides a personalized experience with useful tools to help marginalized voters
-                overcome voting process roadblocks. Five Fifths Voter takes into account various
-                voting journeys, such as first-time voters, veterans, minorities, legally disabled,
-                the elderly, or those with felony convictions. Together, we can change the narrative
-                of historically disenfranchised people in our democratic process.
+                {{ $t('landing_page.mission.paragrah') }}
               </p>
             </div>
           </div>
@@ -33,16 +28,15 @@
       <template v-slot:content>
         <article class="article">
           <div class="article__content">
-            <h2 class="article__heading">Educate.</h2>
+            <h2 class="article__heading">{{ $t('landing_page.educate.title') }}</h2>
             <span class="article__quote"
-              >&quot;Knowledge is power.&quot;<span class="quote--author"
-                >- Francis Bacon</span
+              >&quot;{{ $t('landing_page.educate.quote') }}&quot;<span class="quote--author"
+                >- {{ $t('landing_page.educate.author') }}</span
               ></span
             ><br /><br />
             <div class="bx--offset-lg-1">
               <p class="article__paragraph">
-                Five Fifths Voter will educate disenfranchised voters with voting guidance and
-                connection to up-to-date tools necessary to complete the voting process.
+                {{ $t('landing_page.educate.paragraph') }}
               </p>
             </div>
           </div>
@@ -62,16 +56,14 @@
       <template v-slot:content>
         <article class="article">
           <div class="article__content">
-            <h2 class="article__heading">Empower.</h2>
+            <h2 class="article__heading">{{ $t('landing_page.empower.title') }}</h2>
             <span class="article__quote"
-              >&quot;I am no bird; and no net ensnares me: I am a free human being with an
-              independent will. &quot; <span class="quote--author">- Charlotte Brontë</span></span
+              >&quot;{{ $t('landing_page.empower.quote') }} &quot;
+              <span class="quote--author">- {{ $t('landing_page.empower.author') }}</span></span
             ><br /><br />
             <div class="bx--offset-lg-1">
               <p class="article__paragraph">
-                Five Fifths Voter will help generate solidarity for disenfranchised voting
-                communities and leverage social media platforms for easy access to candidate
-                information.
+                {{ $t('landing_page.empower.paragraph') }}
               </p>
             </div>
           </div>
@@ -91,16 +83,14 @@
       <template v-slot:content>
         <article class="article">
           <div class="article__content">
-            <h2 class="article__heading">Enable.</h2>
+            <h2 class="article__heading">{{ $t('landing_page.enable.title') }}</h2>
             <span class="article__quote"
-              >&quot;Enablement is the key to closing the gap between intention and action. &quot;
-              <span class="quote--author">- Paul Repetto</span></span
+              >&quot;{{ $t('landing_page.enable.quote') }} &quot;
+              <span class="quote--author">- {{ $t('landing_page.enable.author') }}</span></span
             ><br /><br />
             <div class="bx--offset-lg-1">
               <p class="article__paragraph">
-                Five Fifths Voter enables users with information to get to polling stations in safe
-                and efficient ways and will strive to help remove roadblocks disenfranchised voters
-                encounter when voting.
+                {{ $t('landing_page.enable.paragraph') }}
               </p>
             </div>
           </div>

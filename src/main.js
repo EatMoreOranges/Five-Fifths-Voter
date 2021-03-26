@@ -5,6 +5,7 @@ import CarbonComponentsVue from '@carbon/vue';
 Vue.use(CarbonComponentsVue);
 
 import VueAmplitude from 'vue-amplitude';
+import i18n from './i18n';
 var isDevelopment = process.env.NODE_ENV === 'development' || process.env.NODE_ENV === undefined;
 if (isDevelopment)
   Vue.use(VueAmplitude, {
@@ -16,5 +17,6 @@ Vue.config.productionTip = false;
 
 new Vue({
   router,
+  i18n,
   render: h => h(App)
 }).$mount('#app');
