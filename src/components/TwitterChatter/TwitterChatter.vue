@@ -25,8 +25,8 @@
           <p>{{ item.tweet }}</p>
         </cv-list-item>
       </cv-list>
-      <p v-else-if="tweetError">No tweets available</p>
-      <p v-else>here's what they're saying.</p>
+      <p v-else-if="tweetError">{{ $t('twitter_chatter_component.no_tweets_available') }}</p>
+      <p v-else>{{ $t('twitter_chatter_component.tweets_are_available') }}</p>
     </div>
   </div>
 </template>

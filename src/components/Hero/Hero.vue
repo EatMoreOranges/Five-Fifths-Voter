@@ -13,7 +13,7 @@
       <div class="hero__content">
         <h1 class="hero__heading">{{ $t('hero_header.title') }}</h1>
         <p class="hero__description">
-          5/5 equals a whole.<br />A whole person, a whole community, a whole nation.
+          {{ $t('hero_header.description_1') }}<br />{{ $t('hero_header.description_2') }}
           <br />
         </p>
         <h2 class="hero__quote">

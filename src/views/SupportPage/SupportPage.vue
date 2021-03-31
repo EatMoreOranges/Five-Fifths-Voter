@@ -13,32 +13,32 @@
                 class="aside__link"
                 href="https://www.empowerline.org/services/transportation-options/"
                 target="_blank"
-                >{{ $t('support_page.senior_ride_link') }} &rarr;</cv-link
+                >{{ $t('support_page.link1') }} &rarr;</cv-link
               ><br />
               <cv-link
                 class="aside__link"
                 href="https://ymcaofcoastalga.org/news/2018/10/17/ymca-news/ymca-works-to-help-make-it-easier-for-parents-to-vote/"
                 target="_blank"
-                >{{ $t('support_page.childcare_link') }} &rarr;</cv-link
+                >{{ $t('support_page.link2') }} &rarr;</cv-link
               >
               <br />
               <cv-link
                 class="aside__link"
                 href="https://www.npr.org/2020/08/07/900210406/the-most-important-mail-youll-ever-send-a-ballot"
                 target="_blank"
-                >{{ $t('support_page.mail_in_intsructions_link') }} &rarr;</cv-link
+                >{{ $t('support_page.link3') }} &rarr;</cv-link
               ><br />
               <cv-link
                 class="aside__link"
                 href="https://www.ncsl.org/research/elections-and-campaigns/felon-voting-rights.aspx"
                 target="_blank"
-                >{{ $t('support_page.felon_link') }} &rarr;</cv-link
+                >{{ $t('support_page.link4') }} &rarr;</cv-link
               ><br />
               <cv-link
                 class="aside__link"
                 href="https://sos.ga.gov/index.php/elections/voters_with_disabilities"
                 target="_blank"
-                >{{ $t('support_page.diabled_link') }} &rarr;</cv-link
+                >{{ $t('support_page.link5') }} &rarr;</cv-link
               ><br />
             </div>
             <p>

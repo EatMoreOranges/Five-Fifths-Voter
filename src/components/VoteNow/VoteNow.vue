@@ -3,7 +3,7 @@
     <template v-slot:content>
       <aside class="aside">
         <div class="aside__container--text">
-          <h2 class="aside__header">Candidates, deadlines and resources</h2>
+          <h2 class="aside__header">{{ $t('vote_now_component.header') }}</h2>
           <cv-dropdown
             class="dropdown"
             placeholder="Choose your state for information"
@@ -64,11 +64,11 @@
           </cv-dropdown>
           <div v-if="displayDialog" class="bx--modal-container">
             <div tabindex="0" class="cv-modal__before-content"></div>
-            <div class="bx--modal-header">Acceptable IDs</div>
+            <div class="bx--modal-header">{{ $t('vote_now_component.acceptable_id') }}</div>
             <div class="bx--modal-content">
               <p v-if="stateVoterIdData.info">
                 <cv-link :href="stateVoterIdData.info" target="_blank">
-                  State voter ID information
+                  {{ $t('vote_now_component.state_voter_id_info') }}
                 </cv-link>
                 <span class="voter-id-validated">
                   (Validated on
@@ -84,7 +84,7 @@
                 </cv-list>
                 <span v-for="more in stateVoterIdData.more_info" :key="more">
                   <cv-link :href="more" target="_blank">
-                    More Information from your State
+                    {{ $t('vote_now_component.more_state_info') }}
                   </cv-link>
                   <br />
                 </span>
@@ -92,23 +92,19 @@
               <p v-else>
                 <cv-list style="padding-left: 30px" class="list">
                   <cv-list-item class="list-item"
-                    >Any valid state or federal government issued photo ID, including a free ID Card
-                    issued by your county registrar's office or the Department of Driver Services
-                    (DDS)
+                    >{{ $t('vote_now_component.state_gov_id') }}
                   </cv-list-item>
                   <cv-list-item class="list-item"
-                    >A state issued driver's license, even if expired
+                    >{{ $t('vote_now_component.state_drivers_license') }}
                   </cv-list-item>
                   <cv-list-item class="list-item"
-                    >Valid employee photo ID from any branch, department, agency, or entity of the
-                    U.S. Government, state, or any county, municipality, board, authority or other
-                    entity of this state
+                    >{{ $t('vote_now_component.gov_employee_id') }}
                   </cv-list-item>
-                  <cv-list-item class="list-item">Valid U.S. passport ID </cv-list-item>
-                  <cv-list-item class="list-item">Valid U.S. military photo ID </cv-list-item>
-                  <cv-list-item class="list-item">Valid tribal photo ID </cv-list-item>
+                  <cv-list-item class="list-item">{{ $t('vote_now_component.us_passport') }} </cv-list-item>
+                  <cv-list-item class="list-item">{{ $t('vote_now_component.us_millitary_id') }} </cv-list-item>
+                  <cv-list-item class="list-item">{{ $t('vote_now_component.tribal_id') }} </cv-list-item>
                   <cv-list-item class="list-item"
-                    >Many student IDs are also acceptable
+                    >{{ $t('vote_now_component.student_id') }}
                   </cv-list-item>
                 </cv-list>
               </p>
@@ -120,7 +116,7 @@
                 type="button"
                 @click="showSofSSite"
               >
-                State Voting Info
+                {{ $t('vote_now_component.state_voting_info_button') }}
               </button>
             </div>
             <div tabindex="0" class="cv-modal__after-content"></div>
