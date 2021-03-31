@@ -5,20 +5,20 @@
       Skip to content
     </cv-skip-to-content>
     <cv-header-name :to="{ name: 'landing-page' }" prefix="">
-      Five Fifths Voter
+      {{ $t('app_header.header') }}
     </cv-header-name>
     <cv-header-nav aria-label="Carbon nav">
       <cv-header-menu-item :to="{ name: 'why-page' }">
-        Why Vote
+        {{ $t('app_header.item1') }}
       </cv-header-menu-item>
       <cv-header-menu-item :to="{ name: 'journey-page' }">
-        Voter Journey
+        {{ $t('app_header.item2') }}
       </cv-header-menu-item>
       <cv-header-menu-item :to="{ name: 'connect-page' }">
-        Get Connected
+        {{ $t('app_header.item3') }}
       </cv-header-menu-item>
       <cv-header-menu-item :to="{ name: 'support-page' }">
-        Voter Support
+        {{ $t('app_header.item4') }}
       </cv-header-menu-item>
     </cv-header-nav>
     <template v-slot:header-global>
