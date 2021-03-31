@@ -3,7 +3,7 @@
     <template v-slot:content>
       <aside class="aside">
         <div class="aside__container--text">
-          <h2 class="aside__header">Find your local ballot dropbox</h2>
+          <h2 class="aside__header">{{ $t('ballot_return.local_dropbox') }}</h2>
           <div class="wrapper wrapper--address">
             <cv-text-input
               :label="addressLabel"
@@ -14,7 +14,7 @@
             </cv-text-input>
             <div class="wrapper wrapper--button">
               <cv-button kind="primary" @click="showPollingLocation" :disabled="buttonDisabled">
-                Show Ballot Drop Off Locations
+                {{ $t('ballot_return.show_locations') }}
               </cv-button>
             </div>
             <div v-if="voterData.state">
@@ -31,8 +31,8 @@
               <span v-if="absenteeVotingInfoUrl">
                 <cv-link :href="absenteeVotingInfoUrl"> Get Absentee Ballot</cv-link><br />
               </span>
-              <span v-if="placeholderMap"
-                >No known drop off locations. Check with your local election officials.
+              <span v-if="placeholderMap">
+                {{ $t('ballot_return.no_locations') }}
               </span>
               <cv-list v-if="locationList">
                 <cv-list-item v-for="item in locationList" :key="item.address.locationName">
@@ -47,7 +47,7 @@
                 </cv-list-item>
               </cv-list>
 
-              <span><br />Powered by the Civic Information API</span>
+              <span><br />{{ $t('ballot_return.acknowledgment') }}</span>
             </div>
           </div>
         </div>
