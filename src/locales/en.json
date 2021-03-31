@@ -1,8 +1,8 @@
 {
     "absentee_component":{
-        "item1": "Can't be there? Let us help you connect",
-        "item2": "Absentee voting is as easy as signing up before your state's deadline.",
-        "item3": "Request an absentee ballot"
+        "description_1": "Can't be there? Let us help you connect",
+        "description_2": "Absentee voting is as easy as signing up before your state's deadline.",
+        "request_ballot": "Request an absentee ballot"
     },
 
     "app_header":{
@@ -14,10 +14,10 @@
     },
 
     "ballot_return":{
-        "item1": "Find your local ballot dropbox",
-        "item2": "Show Ballot Drop Off Locations",
-        "item3": "No known drop off locations. Check with your local election officials",
-        "item4": "Powered by the Civic Information"
+        "local_dropbox": "Find your local ballot dropbox",
+        "show_locations": "Show Ballot Drop Off Locations",
+        "no_locations": "No known drop off locations. Check with your local election officials",
+        "acknowledgment": "Powered by the Civic Information"
     },
 
     "hero_header":{
@@ -34,7 +34,7 @@
     "landing_page":{
         "mission":{
             "title":"Our Mission",
-            "paragrah":"With Five Fifths Voter, we help put the power back in your hands. Our platform provides a personalized experience with useful tools to help marginalized voters overcome voting process roadblocks. Five Fifths Voter takes into account various voting journeys, such as first-time voters, veterans, minorities, legally disabled, the elderly, or those with felony convictions. Together, we can change the narrative of historically disenfranchised people in our democratic process."
+            "paragraph":"With Five Fifths Voter, we help put the power back in your hands. Our platform provides a personalized experience with useful tools to help marginalized voters overcome voting process roadblocks. Five Fifths Voter takes into account various voting journeys, such as first-time voters, veterans, minorities, legally disabled, the elderly, or those with felony convictions. Together, we can change the narrative of historically disenfranchised people in our democratic process."
         },    
         "educate":{
             "title":"Educate.",
@@ -101,5 +101,12 @@
         "paragraph":"Voting is the perfect way for you to unite and implement change in your communities, state-wide and nationally.",
         "check_status_link":"Check voting status",
         "register_link":"Register to vote"
+    },
+    "connect_page":{
+        "header": "Get social",
+        "title": "Get educated, get social, and get vocal",
+        "dropdown_label": "Enter candidate's Twitter",
+        "button": "Check",
+        "results": "here's what they're saying"
     }
 }
